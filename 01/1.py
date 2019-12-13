@@ -5,4 +5,3 @@ def fuelCalc(mass):
 
 data = np.array(np.loadtxt("./01/input.txt"))
 total = np.sum(fuelCalc(data))
-print(total)
